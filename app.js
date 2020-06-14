@@ -26,7 +26,7 @@ function getTimeDifference(start, end) {
 
 let timer = setInterval(function() {
 const startDate = new Date();
-const endDate = new Date("June 4, 2020 08:00:00");
+const endDate = new Date("Oct 1, 2020 08:00:00");
 
 let timeDifferenceObj = getTimeDifference(startDate, endDate);
 timerDayEl.textContent = timeDifferenceObj.rDays;
